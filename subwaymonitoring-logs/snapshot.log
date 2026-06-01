@@ -1,0 +1,802 @@
+subway_mysql  | 2026-05-25 19:47:44+09:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.45-1.el9 started.
+subway_mysql  | 2026-05-25 19:47:45+09:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+subway_mysql  | 2026-05-25 19:47:45+09:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.45-1.el9 started.
+subway_mysql  | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+subway_mysql  | 2026-05-25T10:47:45.807237Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+subway_mysql  | 2026-05-25T10:47:45.819003Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.45) starting as process 1
+subway_mysql  | 2026-05-25T10:47:45.836798Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+subway_mysql  | 2026-05-25T10:47:46.353132Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+subway_mysql  | 2026-05-25T10:47:50.371466Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+subway_mysql  | 2026-05-25T10:47:50.380981Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+subway_mysql  | 2026-05-25T10:47:53.636764Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+subway_mysql  | 2026-05-25T10:47:53.636917Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+subway_mysql  | 2026-05-25T10:47:53.643573Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+subway_mysql  | 2026-05-25T10:47:54.043111Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+subway_mysql  | 2026-05-25T10:47:54.043445Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.45'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+subway_mysql  | 2026-06-01 11:44:04+09:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.45-1.el9 started.
+subway_mysql  | 2026-06-01 11:44:04+09:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+subway_mysql  | 2026-06-01 11:44:04+09:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.45-1.el9 started.
+subway_mysql  | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+subway_mysql  | 2026-06-01T02:44:05.130945Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+subway_mysql  | 2026-06-01T02:44:05.132731Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.45) starting as process 1
+subway_mysql  | 2026-06-01T02:44:05.208933Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+subway_mysql  | 2026-06-01T02:44:06.201242Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+subway_mysql  | 2026-06-01T02:44:10.204733Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+subway_mysql  | 2026-06-01T02:44:10.211421Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+subway_mysql  | 2026-06-01T02:44:13.167900Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+subway_mysql  | 2026-06-01T02:44:13.168015Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+subway_mysql  | 2026-06-01T02:44:13.176565Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+subway_mysql  | 2026-06-01T02:44:13.328002Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.45'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+subway_mysql  | 2026-06-01T02:44:13.329019Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+subway_mysql  | 2026-06-01T02:45:48.025271Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.45).
+subway_mysql  | 2026-06-01 11:45:51+09:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.45-1.el9 started.
+subway_mysql  | 2026-06-01 11:45:51+09:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+subway_mysql  | 2026-06-01 11:45:51+09:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.45-1.el9 started.
+subway_mysql  | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+subway_mysql  | 2026-06-01T02:45:52.365504Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+subway_mysql  | 2026-06-01T02:45:52.367131Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.45) starting as process 1
+subway_mysql  | 2026-06-01T02:45:52.370690Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+subway_mysql  | 2026-06-01T02:45:52.607061Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+subway_mysql  | 2026-06-01T02:45:52.789197Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+subway_mysql  | 2026-06-01T02:45:52.789239Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+subway_mysql  | 2026-06-01T02:45:52.792722Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+subway_mysql  | 2026-06-01T02:45:52.824344Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.45'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+subway_mysql  | 2026-06-01T02:45:52.824756Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+subway_backend  | 2026-06-01 11:16:52.129 [scheduling-1] INFO  c.m.subway.logging.LoggingAspect - Scheduler execution completed successfully.
+subway_backend  | 2026-06-01 11:17:22.136 [scheduling-1] INFO  c.m.s.s.ArrivalUpdateScheduler - 일반 모드 (2분 주기) 적용: 이번 턴(30s)은 수집을 건너뜁니다.
+subway_backend  | 2026-06-01 11:17:22.137 [scheduling-1] INFO  c.m.subway.logging.LoggingAspect - Scheduler execution completed successfully.
+subway_backend  | 2026-06-01 11:17:52.149 [scheduling-1] INFO  c.m.s.s.ArrivalUpdateScheduler - 일반 모드 (2분 주기) 적용: 이번 턴(30s)은 수집을 건너뜁니다.
+subway_backend  | 2026-06-01 11:17:52.150 [scheduling-1] INFO  c.m.subway.logging.LoggingAspect - Scheduler execution completed successfully.
+subway_backend  | 2026-06-01 11:18:22.156 [scheduling-1] INFO  c.m.s.s.ArrivalUpdateScheduler - 일반 모드 (2분 주기) 적용: 실시간 데이터 수집을 시작합니다.
+subway_backend  | 2026-06-01 11:18:22.156 [scheduling-1] INFO  c.m.s.s.ArrivalUpdateScheduler - 실시간 지하철 1호선 도착 정보 수집 시작...
+subway_backend  | 2026-06-01 11:18:22.552 [scheduling-1] DEBUG c.m.s.e.seoul.SeoulSubwayClient - 3페이지(하행 위주) 수집 완료: 885건
+subway_backend  | 2026-06-01 11:18:22.552 [scheduling-1] DEBUG c.m.s.e.seoul.SeoulSubwayClient - 평시(Off-peak): 2페이지 수집을 건너뛰어 한도를 절약합니다.
+subway_backend  | 2026-06-01 11:18:22.552 [scheduling-1] INFO  c.m.s.e.seoul.SeoulSubwayClient - API 통합 수집 완료: 1884건 (RushHour: false)
+subway_backend  | 2026-06-01 11:18:22.552 [scheduling-1] INFO  c.m.subway.logging.LoggingAspect - External API call completed.
+subway_backend  | 2026-06-01 11:18:22.613 [scheduling-1] INFO  c.m.s.s.ArrivalUpdateScheduler - 지능형 메트릭 수집 완료 - 상행: 223, 하행: 198, 저장: 421건, 소요: 457ms
+subway_backend  | 2026-06-01 11:18:22.614 [scheduling-1] INFO  c.m.subway.logging.LoggingAspect - Scheduler execution completed successfully.
+subway_backend  | 2026-06-01 11:18:52.626 [scheduling-1] INFO  c.m.s.s.ArrivalUpdateScheduler - 일반 모드 (2분 주기) 적용: 이번 턴(30s)은 수집을 건너뜁니다.
+subway_backend  | 2026-06-01 11:18:52.626 [scheduling-1] INFO  c.m.subway.logging.LoggingAspect - Scheduler execution completed successfully.
+subway_backend  | 2026-06-01 11:19:22.635 [scheduling-1] INFO  c.m.s.s.ArrivalUpdateScheduler - 일반 모드 (2분 주기) 적용: 이번 턴(30s)은 수집을 건너뜁니다.
+subway_backend  | 2026-06-01 11:19:22.635 [scheduling-1] INFO  c.m.subway.logging.LoggingAspect - Scheduler execution completed successfully.
+subway_logstash  |         "event_type" => "SCHEDULER",
+subway_logstash  |            "success" => "true",
+subway_logstash  |        "level_value" => 20000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |        "duration_ms" => "0",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "INFO",
+subway_logstash  |             "run_id" => "6d919e78-2467-4b45-baac-e13b0d17c965"
+subway_logstash  | }
+subway_logstash  | {
+subway_logstash  |        "logger_name" => "com.monitoring.subway.scheduler.ArrivalUpdateScheduler",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:46:32.422756875Z,
+subway_logstash  |            "message" => "일반 모드 (2분 주기) 적용: 이번 턴(30s)은 수집을 건너뜁니다.",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "SCHEDULER",
+subway_logstash  |        "level_value" => 20000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "INFO",
+subway_logstash  |             "run_id" => "1ac98618-238b-427d-a7df-91cb3f1052b0"
+subway_logstash  | }
+subway_logstash  | {
+subway_logstash  |        "logger_name" => "com.monitoring.subway.logging.LoggingAspect",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:46:32.423791167Z,
+subway_logstash  |            "message" => "Scheduler execution completed successfully.",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "SCHEDULER",
+subway_logstash  |            "success" => "true",
+subway_logstash  |        "level_value" => 20000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |        "duration_ms" => "2",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "INFO",
+subway_logstash  |             "run_id" => "1ac98618-238b-427d-a7df-91cb3f1052b0"
+subway_logstash  | }
+subway_logstash  | [2026-06-01T02:46:34,154][ERROR][logstash.licensechecker.licensereader] Unable to retrieve Elasticsearch cluster info. {:message=>"No Available connections", :exception=>LogStash::Outputs::ElasticSearch::HttpClient::Pool::NoConnectionAvailableError}
+subway_logstash  | [2026-06-01T02:46:34,155][ERROR][logstash.licensechecker.licensereader] Unable to retrieve license information from license server {:message=>"No Available connections"}
+subway_logstash  | [2026-06-01T02:46:34,178][WARN ][logstash.licensechecker.licensereader] Restored connection to ES instance {:url=>"http://elasticsearch:9200/"}
+subway_logstash  | [2026-06-01T02:46:34,179][INFO ][logstash.licensechecker.licensereader] Elasticsearch version determined (8.12.2) {:es_version=>8}
+subway_logstash  | [2026-06-01T02:46:34,179][WARN ][logstash.licensechecker.licensereader] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>8}
+subway_logstash  | {
+subway_logstash  |        "logger_name" => "com.monitoring.subway.scheduler.ArrivalUpdateScheduler",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:47:02.432915Z,
+subway_logstash  |            "message" => "일반 모드 (2분 주기) 적용: 이번 턴(30s)은 수집을 건너뜁니다.",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "SCHEDULER",
+subway_logstash  |        "level_value" => 20000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "INFO",
+subway_logstash  |             "run_id" => "8352fbcb-1a04-40ab-974a-80be56c18193"
+subway_logstash  | }
+subway_logstash  | {
+subway_logstash  |        "logger_name" => "com.monitoring.subway.logging.LoggingAspect",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:47:02.433494875Z,
+subway_logstash  |            "message" => "Scheduler execution completed successfully.",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "SCHEDULER",
+subway_logstash  |            "success" => "true",
+subway_logstash  |        "level_value" => 20000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |        "duration_ms" => "1",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "INFO",
+subway_logstash  |             "run_id" => "8352fbcb-1a04-40ab-974a-80be56c18193"
+subway_logstash  | }
+subway_logstash  | [2026-06-01T02:47:04,189][INFO ][logstash.monitoring.internalpipelinesource] Monitoring License OK
+subway_logstash  | [2026-06-01T02:47:04,190][INFO ][logstash.monitoring.internalpipelinesource] Validated license for monitoring. Enabling monitoring pipeline.
+subway_logstash  | [2026-06-01T02:47:04,296][INFO ][logstash.javapipeline    ] Pipeline `.monitoring-logstash` is configured with `pipeline.ecs_compatibility: v8` setting. All plugins in this pipeline will default to `ecs_compatibility => v8` unless explicitly configured otherwise.
+subway_logstash  | [2026-06-01T02:47:04,306][INFO ][logstash.outputs.elasticsearchmonitoring][.monitoring-logstash] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearchMonitoring", :hosts=>["http://elasticsearch:9200"]}
+subway_logstash  | [2026-06-01T02:47:04,308][INFO ][logstash.outputs.elasticsearchmonitoring][.monitoring-logstash] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://elasticsearch:9200/]}}
+subway_logstash  | [2026-06-01T02:47:04,315][WARN ][logstash.outputs.elasticsearchmonitoring][.monitoring-logstash] Restored connection to ES instance {:url=>"http://elasticsearch:9200/"}
+subway_logstash  | [2026-06-01T02:47:04,315][INFO ][logstash.outputs.elasticsearchmonitoring][.monitoring-logstash] Elasticsearch version determined (8.12.2) {:es_version=>8}
+subway_logstash  | [2026-06-01T02:47:04,315][WARN ][logstash.outputs.elasticsearchmonitoring][.monitoring-logstash] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>8}
+subway_logstash  | [2026-06-01T02:47:04,319][WARN ][logstash.javapipeline    ][.monitoring-logstash] 'pipeline.ordered' is enabled and is likely less efficient, consider disabling if preserving event order is not necessary
+subway_logstash  | [2026-06-01T02:47:04,319][INFO ][logstash.javapipeline    ][.monitoring-logstash] Starting pipeline {:pipeline_id=>".monitoring-logstash", "pipeline.workers"=>1, "pipeline.batch.size"=>2, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>2, "pipeline.sources"=>["monitoring pipeline"], :thread=>"#<Thread:0x27cbc6aa /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:134 run>"}
+subway_logstash  | [2026-06-01T02:47:04,324][INFO ][logstash.javapipeline    ][.monitoring-logstash] Pipeline Java execution initialization time {"seconds"=>0.0}
+subway_logstash  | [2026-06-01T02:47:04,327][INFO ][logstash.javapipeline    ][.monitoring-logstash] Pipeline started {"pipeline.id"=>".monitoring-logstash"}
+subway_logstash  | [2026-06-01T02:47:04,328][INFO ][logstash.agent           ] Pipelines running {:count=>2, :running_pipelines=>[:main, :".monitoring-logstash"], :non_running_pipelines=>[]}
+subway_logstash  | {
+subway_logstash  |        "logger_name" => "com.monitoring.subway.scheduler.ArrivalUpdateScheduler",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:47:32.449658708Z,
+subway_logstash  |            "message" => "실시간 지하철 1호선 도착 정보 수집 시작...",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "SCHEDULER",
+subway_logstash  |        "level_value" => 20000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "INFO",
+subway_logstash  |             "run_id" => "35d29a94-7317-4f59-9f62-5b3ea521c8f8"
+subway_logstash  | }
+subway_logstash  | {
+subway_logstash  |        "logger_name" => "com.monitoring.subway.scheduler.ArrivalUpdateScheduler",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:47:32.448017792Z,
+subway_logstash  |            "message" => "일반 모드 (2분 주기) 적용: 실시간 데이터 수집을 시작합니다.",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "SCHEDULER",
+subway_logstash  |        "level_value" => 20000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "INFO",
+subway_logstash  |             "run_id" => "35d29a94-7317-4f59-9f62-5b3ea521c8f8"
+subway_logstash  | }
+subway_logstash  | {
+subway_logstash  |           "api_name" => "getAllRealtimeArrivals",
+subway_logstash  |        "logger_name" => "com.monitoring.subway.external.seoul.SeoulSubwayClient",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:47:32.887853708Z,
+subway_logstash  |            "message" => "3페이지(하행 위주) 수집 완료: 983건",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "API_COLLECTION",
+subway_logstash  |        "level_value" => 10000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "DEBUG",
+subway_logstash  |             "run_id" => "3840e3f0-5d50-4ac8-9a35-8f3bbe89e477"
+subway_logstash  | }
+subway_logstash  | {
+subway_logstash  |           "api_name" => "getAllRealtimeArrivals",
+subway_logstash  |        "logger_name" => "com.monitoring.subway.logging.LoggingAspect",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:47:33.023473458Z,
+subway_logstash  |            "message" => "External API call completed.",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "API_COLLECTION",
+subway_logstash  |            "success" => "true",
+subway_logstash  |        "level_value" => 20000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |         "elapsed_ms" => "574",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "INFO",
+subway_logstash  |             "run_id" => "3840e3f0-5d50-4ac8-9a35-8f3bbe89e477"
+subway_logstash  | }
+subway_logstash  | {
+subway_logstash  |           "api_name" => "getAllRealtimeArrivals",
+subway_logstash  |        "logger_name" => "com.monitoring.subway.external.seoul.SeoulSubwayClient",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:47:33.023307208Z,
+subway_logstash  |            "message" => "API 통합 수집 완료: 2982건 (RushHour: false)",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "API_COLLECTION",
+subway_logstash  |        "level_value" => 20000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "INFO",
+subway_logstash  |             "run_id" => "3840e3f0-5d50-4ac8-9a35-8f3bbe89e477"
+subway_logstash  | }
+subway_logstash  | {
+subway_logstash  |           "api_name" => "getAllRealtimeArrivals",
+subway_logstash  |        "logger_name" => "com.monitoring.subway.external.seoul.SeoulSubwayClient",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:47:33.022992500Z,
+subway_logstash  |            "message" => "2페이지(중간) 수집 완료: 1000건",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "API_COLLECTION",
+subway_logstash  |        "level_value" => 10000,
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "DEBUG",
+subway_logstash  |             "run_id" => "3840e3f0-5d50-4ac8-9a35-8f3bbe89e477"
+subway_logstash  | }
+subway_logstash  | {
+subway_logstash  |      "thread_name" => "scheduling-1",
+subway_logstash  |      "logger_name" => "com.monitoring.subway.logging.LoggingAspect",
+subway_logstash  |       "@timestamp" => 2026-06-01T02:47:33.267921959Z,
+subway_logstash  |          "message" => "Scheduler execution completed successfully.",
+subway_logstash  |      "duration_ms" => "820",
+subway_logstash  |     "service_name" => "subway-monitoring-api",
+subway_logstash  |         "@version" => "1",
+subway_logstash  |      "level_value" => 20000,
+subway_logstash  |            "level" => "INFO",
+subway_logstash  |          "success" => "true"
+subway_logstash  | }
+subway_logstash  | {
+subway_logstash  |      "time_category" => "NORMAL",
+subway_logstash  |        "logger_name" => "com.monitoring.subway.scheduler.ArrivalUpdateScheduler",
+subway_logstash  |         "is_weekend" => "false",
+subway_logstash  |         "@timestamp" => 2026-06-01T02:47:33.267144959Z,
+subway_logstash  |            "message" => "지능형 메트릭 수집 완료 - 상행: 355, 하행: 346, 저장: 701건, 소요: 818ms",
+subway_logstash  |     "scheduler_name" => "fetchAndSaveArrivalInfo",
+subway_logstash  |       "service_name" => "subway-monitoring-api",
+subway_logstash  |         "event_type" => "METRIC_COLLECTION",
+subway_logstash  |        "level_value" => 20000,
+subway_logstash  |        "hour_of_day" => "11",
+subway_logstash  |      "fetched_total" => "2982",
+subway_logstash  |        "thread_name" => "scheduling-1",
+subway_logstash  |        "duration_ms" => "818",
+subway_logstash  |         "down_count" => "346",
+subway_logstash  |        "day_of_week" => "MONDAY",
+subway_logstash  |           "up_count" => "355",
+subway_logstash  |           "@version" => "1",
+subway_logstash  |              "level" => "INFO",
+subway_logstash  |        "line1_saved" => "701"
+subway_logstash  | }
+subway_frontend  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+subway_frontend  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+subway_frontend  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+subway_frontend  | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+subway_frontend  | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+subway_frontend  | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+subway_frontend  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+subway_frontend  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+subway_frontend  | /docker-entrypoint.sh: Configuration complete; ready for start up
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: using the "epoll" event method
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: nginx/1.31.1
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: OS: Linux 6.12.72-linuxkit
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker processes
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker process 29
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker process 30
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker process 31
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker process 32
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker process 33
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker process 34
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker process 35
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker process 36
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker process 37
+subway_frontend  | 2026/05/25 12:05:33 [notice] 1#1: start worker process 38
+subway_frontend  | 172.20.0.1 - - [25/May/2026:12:06:28 +0000] "GET /admin HTTP/1.1" 200 471 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "-"
+subway_frontend  | 172.20.0.1 - - [25/May/2026:12:06:29 +0000] "GET /assets/index-BfwmGT0Y.js HTTP/1.1" 200 739619 "http://localhost:3000/admin" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "-"
+subway_frontend  | 172.20.0.1 - - [28/May/2026:10:40:42 +0000] "GET / HTTP/1.1" 200 471 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "-"
+subway_frontend  | 172.20.0.1 - - [28/May/2026:10:40:43 +0000] "GET /assets/index-BfwmGT0Y.js HTTP/1.1" 200 739619 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "-"
+subway_frontend  | 172.20.0.1 - - [28/May/2026:10:40:43 +0000] "GET /assets/index-DRV-XpAK.css HTTP/1.1" 200 25192 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "-"
+subway_frontend  | 172.20.0.1 - - [28/May/2026:10:40:43 +0000] "GET /vite.svg HTTP/1.1" 200 471 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "-"
+subway_frontend  | 172.20.0.1 - - [01/Jun/2026:01:29:03 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "-"
+subway_frontend  | 172.20.0.1 - - [01/Jun/2026:01:29:03 +0000] "GET /assets/index-DRV-XpAK.css HTTP/1.1" 200 25192 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "-"
+subway_frontend  | 172.20.0.1 - - [01/Jun/2026:01:29:03 +0000] "GET /assets/index-BfwmGT0Y.js HTTP/1.1" 200 739619 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" "-"
+subway_frontend  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+subway_frontend  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+subway_frontend  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+subway_frontend  | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+subway_frontend  | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+subway_frontend  | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+subway_frontend  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+subway_frontend  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+subway_frontend  | /docker-entrypoint.sh: Configuration complete; ready for start up
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: using the "epoll" event method
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: nginx/1.31.1
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: OS: Linux 6.12.72-linuxkit
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker processes
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker process 29
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker process 30
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker process 31
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker process 32
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker process 33
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker process 34
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker process 35
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker process 36
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker process 37
+subway_frontend  | 2026/06/01 02:44:04 [notice] 1#1: start worker process 38
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 30#30: gracefully shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 32#32: gracefully shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 29#29: gracefully shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 32#32: exiting
+subway_frontend  | 2026/06/01 02:45:47 [notice] 30#30: exiting
+subway_frontend  | 2026/06/01 02:45:47 [notice] 31#31: gracefully shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 34#34: gracefully shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 32#32: exit
+subway_frontend  | 2026/06/01 02:45:47 [notice] 31#31: exiting
+subway_frontend  | 2026/06/01 02:45:47 [notice] 30#30: exit
+subway_frontend  | 2026/06/01 02:45:47 [notice] 34#34: exiting
+subway_frontend  | 2026/06/01 02:45:47 [notice] 31#31: exit
+subway_frontend  | 2026/06/01 02:45:47 [notice] 34#34: exit
+subway_frontend  | 2026/06/01 02:45:47 [notice] 35#35: gracefully shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 35#35: exiting
+subway_frontend  | 2026/06/01 02:45:47 [notice] 35#35: exit
+subway_frontend  | 2026/06/01 02:45:47 [notice] 29#29: exiting
+subway_frontend  | 2026/06/01 02:45:47 [notice] 33#33: gracefully shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 37#37: gracefully shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 36#36: gracefully shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 33#33: exiting
+subway_frontend  | 2026/06/01 02:45:47 [notice] 36#36: exiting
+subway_frontend  | 2026/06/01 02:45:47 [notice] 36#36: exit
+subway_frontend  | 2026/06/01 02:45:47 [notice] 33#33: exit
+subway_frontend  | 2026/06/01 02:45:47 [notice] 37#37: exiting
+subway_frontend  | 2026/06/01 02:45:47 [notice] 29#29: exit
+subway_frontend  | 2026/06/01 02:45:47 [notice] 37#37: exit
+subway_frontend  | 2026/06/01 02:45:47 [notice] 38#38: gracefully shutting down
+subway_frontend  | 2026/06/01 02:45:47 [notice] 38#38: exiting
+subway_frontend  | 2026/06/01 02:45:47 [notice] 38#38: exit
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: worker process 29 exited with code 0
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 29 (SIGIO) received
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: worker process 30 exited with code 0
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 29 (SIGIO) received
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: worker process 38 exited with code 0
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 29 (SIGIO) received
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: worker process 37 exited with code 0
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 29 (SIGIO) received
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: worker process 33 exited with code 0
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 29 (SIGIO) received
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: worker process 31 exited with code 0
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 29 (SIGIO) received
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: worker process 36 exited with code 0
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 29 (SIGIO) received
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: worker process 32 exited with code 0
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: worker process 34 exited with code 0
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: worker process 35 exited with code 0
+subway_frontend  | 2026/06/01 02:45:47 [notice] 1#1: exit
+subway_frontend  | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+subway_frontend  | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+subway_frontend  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+subway_frontend  | 10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf
+subway_frontend  | 10-listen-on-ipv6-by-default.sh: info: /etc/nginx/conf.d/default.conf differs from the packaged version
+subway_frontend  | /docker-entrypoint.sh: Sourcing /docker-entrypoint.d/15-local-resolvers.envsh
+subway_frontend  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+subway_frontend  | /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
+subway_frontend  | /docker-entrypoint.sh: Configuration complete; ready for start up
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: using the "epoll" event method
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: nginx/1.31.1
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: built by gcc 15.2.0 (Alpine 15.2.0) 
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: OS: Linux 6.12.72-linuxkit
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker processes
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker process 29
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker process 30
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker process 31
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker process 32
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker process 33
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker process 34
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker process 35
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker process 36
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker process 37
+subway_frontend  | 2026/06/01 02:45:52 [notice] 1#1: start worker process 38
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [spatial]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [apm]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [mapper-version]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [mapper-extras]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [x-pack-rollup]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [percolator]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [x-pack-stack]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [data-streams]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [reindex]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [rank-eval]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [x-pack-security]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.583Z", "log.level": "INFO", "message":"loaded module [blob-cache]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.584Z", "log.level": "INFO", "message":"loaded module [searchable-snapshots]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.584Z", "log.level": "INFO", "message":"loaded module [x-pack-slm]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.584Z", "log.level": "INFO", "message":"loaded module [snapshot-based-recoveries]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.584Z", "log.level": "INFO", "message":"loaded module [x-pack-watcher]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.584Z", "log.level": "INFO", "message":"loaded module [old-lucene-versions]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.584Z", "log.level": "INFO", "message":"loaded module [x-pack-ilm]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.584Z", "log.level": "INFO", "message":"loaded module [x-pack-voting-only-node]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.584Z", "log.level": "INFO", "message":"loaded module [x-pack-inference]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.584Z", "log.level": "INFO", "message":"loaded module [x-pack-deprecation]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.584Z", "log.level": "INFO", "message":"loaded module [x-pack-fleet]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [x-pack-profiling]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [x-pack-aggregate-metric]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [x-pack-downsample]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [ingest-geoip]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [x-pack-write-load-forecaster]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [search-business-rules]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [ingest-attachment]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [wildcard]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [x-pack-apm-data]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [unsigned-long]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [x-pack-sql]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [runtime-fields-common]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [x-pack-async]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [vector-tile]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [lang-expression]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:16.585Z", "log.level": "INFO", "message":"loaded module [x-pack-eql]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:17.800Z", "log.level": "INFO", "message":"using [1] data paths, mounts [[/usr/share/elasticsearch/data (/dev/vda1)]], net usable_space [392.4gb], net total_space [452.1gb], types [ext4]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.env.NodeEnvironment","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:17.801Z", "log.level": "INFO", "message":"heap size [1gb], compressed ordinary object pointers [true]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.env.NodeEnvironment","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:18.045Z", "log.level": "INFO", "message":"node name [ee1c3922e2c0], node ID [XKEOGOlrRmis_9uA20wBaA], cluster name [docker-cluster], roles [master, remote_cluster_client, data, data_cold, ingest, data_frozen, ml, data_hot, transform, data_content, data_warm]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:23.259Z", "log.level": "INFO", "message":"Registered local node features [features_supported, health.dsl.info, usage.data_tiers.precalculate_stats]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.features.FeatureService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:23.756Z", "log.level": "INFO", "message":"[controller/99] [Main.cc@123] controller (64 bit): Version 8.12.2 (Build 9d9bcb1a6d19f7) Copyright (c) 2024 Elasticsearch BV", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"ml-cpp-log-tail-thread","log.logger":"org.elasticsearch.xpack.ml.process.logging.CppLogMessageHandler","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:24.210Z", "log.level": "INFO", "message":"Sending apm metrics is disabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.telemetry.apm.APM","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:24.211Z", "log.level": "INFO", "message":"Sending apm traces is disabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.telemetry.apm.APM","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:24.251Z", "log.level": "INFO", "message":"Security is disabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.security.Security","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:24.675Z", "log.level": "INFO", "message":"Watcher initialized components at 2026-06-01T02:44:24.675Z", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.watcher.Watcher","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:24.751Z", "log.level": "INFO", "message":"Profiling is enabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.profiling.ProfilingPlugin","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:24.785Z", "log.level": "INFO", "message":"profiling index templates will not be installed or reinstalled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.profiling.ProfilingPlugin","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:24.868Z", "log.level": "INFO", "message":"APM ingest plugin is disabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.apmdata.APMPlugin","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:25.622Z", "log.level": "INFO", "message":"creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=1mb, factors={es.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=4mb, heap_size=1gb}]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.transport.netty4.NettyAllocator","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:25.672Z", "log.level": "INFO", "message":"using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.indices.recovery.RecoverySettings","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:25.724Z", "log.level": "INFO", "message":"using discovery type [single-node] and seed hosts providers [settings]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.discovery.DiscoveryModule","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:27.346Z", "log.level": "INFO", "message":"initialized", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:27.347Z", "log.level": "INFO", "message":"starting ...", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:27.376Z", "log.level": "INFO", "message":"persistent cache index loaded", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.searchablesnapshots.cache.full.PersistentCache","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:27.377Z", "log.level": "INFO", "message":"deprecation component started", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.deprecation.logging.DeprecationIndexingComponent","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:27.522Z", "log.level": "INFO", "message":"publish_address {172.20.0.2:9300}, bound_addresses {[::]:9300}", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.transport.TransportService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:28.578Z", "log.level": "INFO", "message":"this node is locked into cluster UUID [hu2v5I4URM6RofZRRp9gCw] and will not attempt further cluster bootstrapping", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.cluster.coordination.ClusterBootstrapService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:28.715Z", "log.level": "INFO", "message":"elected-as-master ([1] nodes joined in term 10)[_FINISH_ELECTION_, {ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}{_0qvsAk2Rd-u0v0BOkiy-A}{ee1c3922e2c0}{172.20.0.2}{172.20.0.2:9300}{cdfhilmrstw}{8.12.2}{7000099-8500010} completing election], term: 10, version: 1801, delta: master node changed {previous [], current [{ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}{_0qvsAk2Rd-u0v0BOkiy-A}{ee1c3922e2c0}{172.20.0.2}{172.20.0.2:9300}{cdfhilmrstw}{8.12.2}{7000099-8500010}]}", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][masterService#updateTask][T#1]","log.logger":"org.elasticsearch.cluster.service.MasterService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:28.813Z", "log.level": "INFO", "message":"master node changed {previous [], current [{ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}{_0qvsAk2Rd-u0v0BOkiy-A}{ee1c3922e2c0}{172.20.0.2}{172.20.0.2:9300}{cdfhilmrstw}{8.12.2}{7000099-8500010}]}, term: 10, version: 1801, reason: Publication{term=10, version=1801}", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][clusterApplierService#updateTask][T#1]","log.logger":"org.elasticsearch.cluster.service.ClusterApplierService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:28.860Z", "log.level": "INFO", "message":"starting file watcher ...", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][clusterApplierService#updateTask][T#1]","log.logger":"org.elasticsearch.common.file.AbstractFileWatchingService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:28.873Z", "log.level": "INFO", "message":"file settings service up and running [tid=66]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[file-watcher[/usr/share/elasticsearch/config/operator/settings.json]]","log.logger":"org.elasticsearch.common.file.AbstractFileWatchingService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:28.882Z", "log.level": "INFO", "message":"publish_address {172.20.0.2:9200}, bound_addresses {[::]:9200}", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.http.AbstractHttpServerTransport","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:28.885Z", "log.level": "INFO", "message":"node-join: [{ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}{_0qvsAk2Rd-u0v0BOkiy-A}{ee1c3922e2c0}{172.20.0.2}{172.20.0.2:9300}{cdfhilmrstw}{8.12.2}{7000099-8500010}] with reason [completing election]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][masterService#updateTask][T#1]","log.logger":"org.elasticsearch.cluster.coordination.NodeJoinExecutor","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:28.895Z", "log.level": "INFO", "message":"started {ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}{_0qvsAk2Rd-u0v0BOkiy-A}{ee1c3922e2c0}{172.20.0.2}{172.20.0.2:9300}{cdfhilmrstw}{8.12.2}{7000099-8500010}{transform.config_version=10.0.0, ml.machine_memory=2147483648, ml.allocated_processors=10, ml.allocated_processors_double=10.0, ml.max_jvm_size=1073741824, ml.config_version=12.0.0, xpack.installed=true}", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:29.337Z", "log.level": "INFO", "message":"license [aa758130-d24e-41e8-b8ed-054349125ba0] mode [basic] - valid", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][clusterApplierService#updateTask][T#1]","log.logger":"org.elasticsearch.license.ClusterStateLicenseService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:29.342Z", "log.level": "INFO", "message":"recovered [58] indices into cluster_state", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][masterService#updateTask][T#1]","log.logger":"org.elasticsearch.gateway.GatewayService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:29.775Z", "log.level": "INFO", "message":"Node [{ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}] is selected as the current health node.", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][management][T#3]","log.logger":"org.elasticsearch.health.node.selection.HealthNodeTaskExecutor","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:32.385Z", "log.level": "INFO",  "current.health":"YELLOW","message":"Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana-observability-ai-assistant-conversations-000001][0]]]).","previous.health":"RED","reason":"shards started [[.kibana-observability-ai-assistant-conversations-000001][0]]" , "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][masterService#updateTask][T#1]","log.logger":"org.elasticsearch.cluster.routing.allocation.AllocationService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:44:37.823Z", "log.level": "INFO", "message":"[subway-logs-2026.06.01/755hLL2vSBCrCiH4PutAsw] update_mapping [_doc]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][masterService#updateTask][T#1]","log.logger":"org.elasticsearch.cluster.metadata.MetadataMappingService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:49.349Z", "log.level": "INFO", "message":"stopping ...", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch-shutdown","log.logger":"org.elasticsearch.node.Node","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:49.351Z", "log.level": "INFO", "message":"shutting down watcher thread", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[file-watcher[/usr/share/elasticsearch/config/operator/settings.json]]","log.logger":"org.elasticsearch.common.file.AbstractFileWatchingService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:49.355Z", "log.level": "INFO", "message":"watcher service stopped", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch-shutdown","log.logger":"org.elasticsearch.common.file.AbstractFileWatchingService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:49.366Z", "log.level": "INFO", "message":"stopping watch service, reason [shutdown initiated]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch-shutdown","log.logger":"org.elasticsearch.xpack.watcher.WatcherService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:49.364Z", "log.level": "INFO", "message":"[controller/99] [Main.cc@176] ML controller exiting", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"ml-cpp-log-tail-thread","log.logger":"org.elasticsearch.xpack.ml.process.logging.CppLogMessageHandler","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:49.367Z", "log.level": "INFO", "message":"Native controller process has stopped - no new native processes can be started", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"ml-cpp-log-tail-thread","log.logger":"org.elasticsearch.xpack.ml.process.NativeController","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:49.368Z", "log.level": "INFO", "message":"watcher has stopped and shutdown", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][generic][T#1]","log.logger":"org.elasticsearch.xpack.watcher.WatcherLifeCycleService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:49.832Z", "log.level": "INFO", "message":"stopped", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch-shutdown","log.logger":"org.elasticsearch.node.Node","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:49.832Z", "log.level": "INFO", "message":"closing ...", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch-shutdown","log.logger":"org.elasticsearch.node.Node","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:49.854Z", "log.level": "INFO", "message":"closed", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch-shutdown","log.logger":"org.elasticsearch.node.Node","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | CompileCommand: exclude org/apache/lucene/util/MSBRadixSorter.computeCommonPrefixLengthAndBuildHistogram bool exclude = true
+subway_es        | CompileCommand: exclude org/apache/lucene/util/RadixSelector.computeCommonPrefixLengthAndBuildHistogram bool exclude = true
+subway_es        | Jun 01, 2026 2:45:54 AM sun.util.locale.provider.LocaleProviderAdapter <clinit>
+subway_es        | WARNING: COMPAT locale provider will be removed in a future release
+subway_es        | {"@timestamp":"2026-06-01T02:45:55.467Z", "log.level": "INFO", "message":"Java vector incubator API enabled; uses preferredBitSize=128; FMA enabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.apache.lucene.internal.vectorization.PanamaVectorizationProvider","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:55.958Z", "log.level": "INFO", "message":"version[8.12.2], pid[67], build[docker/48a287ab9497e852de30327444b0809e55d46466/2024-02-19T10:04:32.774273190Z], OS[Linux/6.12.72-linuxkit/aarch64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/21.0.2/21.0.2+13-58]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:55.960Z", "log.level": "INFO", "message":"JVM home [/usr/share/elasticsearch/jdk], using bundled JDK [true]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:55.960Z", "log.level": "INFO", "message":"JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -Djava.security.manager=allow, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=SPI,COMPAT, --add-opens=java.base/java.io=org.elasticsearch.preallocate, -Des.cgroups.hierarchy.override=/, -XX:+UseG1GC, -Djava.io.tmpdir=/tmp/elasticsearch-2421534122942345414, --add-modules=jdk.incubator.vector, -XX:CompileCommand=exclude,org.apache.lucene.util.MSBRadixSorter::computeCommonPrefixLengthAndBuildHistogram, -XX:CompileCommand=exclude,org.apache.lucene.util.RadixSelector::computeCommonPrefixLengthAndBuildHistogram, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,level,pid,tags:filecount=32,filesize=64m, -Xms1g, -Xmx1g, -XX:MaxDirectMemorySize=536870912, -XX:G1HeapRegionSize=4m, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=15, -Des.distribution.type=docker, --module-path=/usr/share/elasticsearch/lib, --add-modules=jdk.net, --add-modules=ALL-MODULE-PATH, -Djdk.module.main=org.elasticsearch.server]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.580Z", "log.level": "INFO", "message":"loaded module [repository-url]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.581Z", "log.level": "INFO", "message":"loaded module [rest-root]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.581Z", "log.level": "INFO", "message":"loaded module [x-pack-core]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.581Z", "log.level": "INFO", "message":"loaded module [x-pack-redact]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.581Z", "log.level": "INFO", "message":"loaded module [ingest-user-agent]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.581Z", "log.level": "INFO", "message":"loaded module [x-pack-async-search]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [x-pack-monitoring]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [repository-s3]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [x-pack-analytics]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [x-pack-ent-search]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [x-pack-autoscaling]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [lang-painless]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [x-pack-ml]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [legacy-geo]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [lang-mustache]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [x-pack-ql]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [rank-rrf]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [analysis-common]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [health-shards-availability]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [transport-netty4]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [aggregations]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [ingest-common]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [x-pack-identity-provider]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [frozen-indices]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.582Z", "log.level": "INFO", "message":"loaded module [x-pack-shutdown]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.583Z", "log.level": "INFO", "message":"loaded module [x-pack-text-structure]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.583Z", "log.level": "INFO", "message":"loaded module [snapshot-repo-test-kit]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [ml-package-loader]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [kibana]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [constant-keyword]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [x-pack-logstash]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [x-pack-graph]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [x-pack-ccr]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [x-pack-esql]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [parent-join]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [x-pack-enrich]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [counted-keyword]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [repositories-metering-api]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [transform]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [repository-azure]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [repository-gcs]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [spatial]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [apm]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [mapper-version]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [mapper-extras]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.584Z", "log.level": "INFO", "message":"loaded module [x-pack-rollup]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.585Z", "log.level": "INFO", "message":"loaded module [percolator]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.585Z", "log.level": "INFO", "message":"loaded module [x-pack-stack]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.585Z", "log.level": "INFO", "message":"loaded module [data-streams]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.585Z", "log.level": "INFO", "message":"loaded module [reindex]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.585Z", "log.level": "INFO", "message":"loaded module [rank-eval]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.585Z", "log.level": "INFO", "message":"loaded module [x-pack-security]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.585Z", "log.level": "INFO", "message":"loaded module [blob-cache]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.585Z", "log.level": "INFO", "message":"loaded module [searchable-snapshots]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.585Z", "log.level": "INFO", "message":"loaded module [x-pack-slm]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.586Z", "log.level": "INFO", "message":"loaded module [snapshot-based-recoveries]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.586Z", "log.level": "INFO", "message":"loaded module [x-pack-watcher]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.586Z", "log.level": "INFO", "message":"loaded module [old-lucene-versions]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.586Z", "log.level": "INFO", "message":"loaded module [x-pack-ilm]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.586Z", "log.level": "INFO", "message":"loaded module [x-pack-voting-only-node]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.586Z", "log.level": "INFO", "message":"loaded module [x-pack-inference]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.586Z", "log.level": "INFO", "message":"loaded module [x-pack-deprecation]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [x-pack-fleet]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [x-pack-profiling]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [x-pack-aggregate-metric]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [x-pack-downsample]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [ingest-geoip]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [x-pack-write-load-forecaster]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [search-business-rules]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [ingest-attachment]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [wildcard]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [x-pack-apm-data]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [unsigned-long]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [x-pack-sql]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [runtime-fields-common]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [x-pack-async]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [vector-tile]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [lang-expression]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:45:59.587Z", "log.level": "INFO", "message":"loaded module [x-pack-eql]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.plugins.PluginsService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:00.293Z", "log.level": "INFO", "message":"using [1] data paths, mounts [[/usr/share/elasticsearch/data (/dev/vda1)]], net usable_space [392.4gb], net total_space [452.1gb], types [ext4]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.env.NodeEnvironment","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:00.293Z", "log.level": "INFO", "message":"heap size [1gb], compressed ordinary object pointers [true]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.env.NodeEnvironment","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:00.427Z", "log.level": "INFO", "message":"node name [ee1c3922e2c0], node ID [XKEOGOlrRmis_9uA20wBaA], cluster name [docker-cluster], roles [transform, data_hot, ml, data_frozen, ingest, data_cold, data, remote_cluster_client, master, data_warm, data_content]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:03.335Z", "log.level": "INFO", "message":"Registered local node features [features_supported, health.dsl.info, usage.data_tiers.precalculate_stats]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.features.FeatureService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:03.533Z", "log.level": "INFO", "message":"[controller/96] [Main.cc@123] controller (64 bit): Version 8.12.2 (Build 9d9bcb1a6d19f7) Copyright (c) 2024 Elasticsearch BV", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"ml-cpp-log-tail-thread","log.logger":"org.elasticsearch.xpack.ml.process.logging.CppLogMessageHandler","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:03.669Z", "log.level": "INFO", "message":"Sending apm metrics is disabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.telemetry.apm.APM","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:03.669Z", "log.level": "INFO", "message":"Sending apm traces is disabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.telemetry.apm.APM","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:03.687Z", "log.level": "INFO", "message":"Security is disabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.security.Security","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:03.856Z", "log.level": "INFO", "message":"Watcher initialized components at 2026-06-01T02:46:03.856Z", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.watcher.Watcher","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:03.883Z", "log.level": "INFO", "message":"Profiling is enabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.profiling.ProfilingPlugin","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:03.891Z", "log.level": "INFO", "message":"profiling index templates will not be installed or reinstalled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.profiling.ProfilingPlugin","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:03.918Z", "log.level": "INFO", "message":"APM ingest plugin is disabled", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.apmdata.APMPlugin","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:04.237Z", "log.level": "INFO", "message":"creating NettyAllocator with the following configs: [name=unpooled, suggested_max_allocation_size=1mb, factors={es.unsafe.use_unpooled_allocator=null, g1gc_enabled=true, g1gc_region_size=4mb, heap_size=1gb}]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.transport.netty4.NettyAllocator","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:04.252Z", "log.level": "INFO", "message":"using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.indices.recovery.RecoverySettings","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:04.274Z", "log.level": "INFO", "message":"using discovery type [single-node] and seed hosts providers [settings]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.discovery.DiscoveryModule","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:04.938Z", "log.level": "INFO", "message":"initialized", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:04.938Z", "log.level": "INFO", "message":"starting ...", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:04.947Z", "log.level": "INFO", "message":"persistent cache index loaded", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.searchablesnapshots.cache.full.PersistentCache","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:04.948Z", "log.level": "INFO", "message":"deprecation component started", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.xpack.deprecation.logging.DeprecationIndexingComponent","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:04.988Z", "log.level": "INFO", "message":"publish_address {172.20.0.3:9300}, bound_addresses {[::]:9300}", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.transport.TransportService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.258Z", "log.level": "INFO", "message":"this node is locked into cluster UUID [hu2v5I4URM6RofZRRp9gCw] and will not attempt further cluster bootstrapping", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.cluster.coordination.ClusterBootstrapService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.333Z", "log.level": "INFO", "message":"elected-as-master ([1] nodes joined in term 11)[_FINISH_ELECTION_, {ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}{D7HqIYIITJ-3NeHQT4Pm9A}{ee1c3922e2c0}{172.20.0.3}{172.20.0.3:9300}{cdfhilmrstw}{8.12.2}{7000099-8500010} completing election], term: 11, version: 1860, delta: master node changed {previous [], current [{ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}{D7HqIYIITJ-3NeHQT4Pm9A}{ee1c3922e2c0}{172.20.0.3}{172.20.0.3:9300}{cdfhilmrstw}{8.12.2}{7000099-8500010}]}", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][masterService#updateTask][T#1]","log.logger":"org.elasticsearch.cluster.service.MasterService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.360Z", "log.level": "INFO", "message":"master node changed {previous [], current [{ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}{D7HqIYIITJ-3NeHQT4Pm9A}{ee1c3922e2c0}{172.20.0.3}{172.20.0.3:9300}{cdfhilmrstw}{8.12.2}{7000099-8500010}]}, term: 11, version: 1860, reason: Publication{term=11, version=1860}", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][clusterApplierService#updateTask][T#1]","log.logger":"org.elasticsearch.cluster.service.ClusterApplierService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.372Z", "log.level": "INFO", "message":"starting file watcher ...", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][clusterApplierService#updateTask][T#1]","log.logger":"org.elasticsearch.common.file.AbstractFileWatchingService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.375Z", "log.level": "INFO", "message":"file settings service up and running [tid=66]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[file-watcher[/usr/share/elasticsearch/config/operator/settings.json]]","log.logger":"org.elasticsearch.common.file.AbstractFileWatchingService","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.377Z", "log.level": "INFO", "message":"node-join: [{ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}{D7HqIYIITJ-3NeHQT4Pm9A}{ee1c3922e2c0}{172.20.0.3}{172.20.0.3:9300}{cdfhilmrstw}{8.12.2}{7000099-8500010}] with reason [completing election]", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][masterService#updateTask][T#1]","log.logger":"org.elasticsearch.cluster.coordination.NodeJoinExecutor","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.378Z", "log.level": "INFO", "message":"publish_address {172.20.0.3:9200}, bound_addresses {[::]:9200}", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.http.AbstractHttpServerTransport","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.383Z", "log.level": "INFO", "message":"started {ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}{D7HqIYIITJ-3NeHQT4Pm9A}{ee1c3922e2c0}{172.20.0.3}{172.20.0.3:9300}{cdfhilmrstw}{8.12.2}{7000099-8500010}{ml.max_jvm_size=1073741824, ml.allocated_processors_double=10.0, ml.allocated_processors=10, ml.machine_memory=2147483648, transform.config_version=10.0.0, xpack.installed=true, ml.config_version=12.0.0}", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"main","log.logger":"org.elasticsearch.node.Node","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.566Z", "log.level": "INFO", "message":"license [aa758130-d24e-41e8-b8ed-054349125ba0] mode [basic] - valid", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][clusterApplierService#updateTask][T#1]","log.logger":"org.elasticsearch.license.ClusterStateLicenseService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.567Z", "log.level": "INFO", "message":"recovered [58] indices into cluster_state", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][masterService#updateTask][T#1]","log.logger":"org.elasticsearch.gateway.GatewayService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:05.708Z", "log.level": "INFO", "message":"Node [{ee1c3922e2c0}{XKEOGOlrRmis_9uA20wBaA}] is selected as the current health node.", "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][management][T#3]","log.logger":"org.elasticsearch.health.node.selection.HealthNodeTaskExecutor","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_es        | {"@timestamp":"2026-06-01T02:46:06.508Z", "log.level": "INFO",  "current.health":"YELLOW","message":"Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana-observability-ai-assistant-conversations-000001][0]]]).","previous.health":"RED","reason":"shards started [[.kibana-observability-ai-assistant-conversations-000001][0]]" , "ecs.version": "1.2.0","service.name":"ES_ECS","event.dataset":"elasticsearch.server","process.thread.name":"elasticsearch[ee1c3922e2c0][masterService#updateTask][T#1]","log.logger":"org.elasticsearch.cluster.routing.allocation.AllocationService","elasticsearch.cluster.uuid":"hu2v5I4URM6RofZRRp9gCw","elasticsearch.node.id":"XKEOGOlrRmis_9uA20wBaA","elasticsearch.node.name":"ee1c3922e2c0","elasticsearch.cluster.name":"docker-cluster"}
+subway_kibana    | [2026-05-31T22:07:18.283+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:08:54.120+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired hot timestamps
+subway_kibana    | [2026-05-31T22:08:54.207+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:09:18.125+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:09:18.206+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:10:24.617+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired hot timestamps
+subway_kibana    | [2026-05-31T22:10:24.698+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:10:30.611+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:10:30.697+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:10:48.614+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:10:48.695+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:11:18.615+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:11:18.697+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:12:24.481+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired hot timestamps
+subway_kibana    | [2026-05-31T22:12:24.563+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:12:30.481+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:12:30.563+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:12:48.486+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:12:48.567+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:14:18.432+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:14:18.515+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:15:54.363+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired hot timestamps
+subway_kibana    | [2026-05-31T22:15:54.444+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:16:18.373+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:16:18.454+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:17:24.239+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired hot timestamps
+subway_kibana    | [2026-05-31T22:17:24.320+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:17:30.200+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:17:30.283+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:17:48.200+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:17:48.281+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:18:18.209+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:18:18.288+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:19:24.533+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired hot timestamps
+subway_kibana    | [2026-05-31T22:19:24.619+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:19:24.624+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-05-31T22:19:30.528+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:19:30.609+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:19:48.541+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:19:48.622+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:20:18.537+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:20:18.618+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:21:24.430+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired hot timestamps
+subway_kibana    | [2026-05-31T22:21:24.511+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:21:30.426+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:21:30.507+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:21:48.417+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:21:48.499+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:23:18.376+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:23:18.458+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:24:54.749+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired hot timestamps
+subway_kibana    | [2026-05-31T22:24:54.830+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:25:18.758+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:25:18.838+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:26:24.600+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired hot timestamps
+subway_kibana    | [2026-05-31T22:26:24.683+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:26:30.614+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:26:30.696+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:26:48.609+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:26:48.689+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:27:21.608+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:27:21.691+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:28:51.511+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:28:51.593+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:30:21.432+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:30:21.513+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:31:57.340+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:31:57.421+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:32:21.351+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:32:21.433+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:33:57.268+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:33:57.349+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:34:21.310+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:34:21.391+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:35:23.994+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-05-31T22:35:50.872+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:35:50.954+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:36:20.877+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:36:20.958+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:37:51.338+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:37:51.420+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:38:21.352+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:38:21.435+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:39:57.574+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:39:57.656+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:40:21.578+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:40:21.662+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:41:57.428+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:41:57.511+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:42:21.428+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:42:21.508+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:43:51.912+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:43:51.994+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:44:21.923+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:44:22.005+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:45:51.827+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:45:51.908+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:46:21.852+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:46:21.933+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:47:51.737+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:47:51.820+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:49:21.653+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:49:21.735+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:50:54.637+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-05-31T22:50:57.536+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:50:57.619+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:51:21.544+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:51:21.626+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:52:24.539+00:00][INFO ][plugins.fleet] Running Fleet Usage telemetry send task
+subway_kibana    | [2026-05-31T22:52:51.447+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:52:51.530+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:53:21.458+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:53:21.541+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T22:54:48.900+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T22:54:48.982+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T22:55:29.885+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T22:55:29.967+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-05-31T23:05:57.077+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-05-31T23:24:07.273+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-05-31T23:24:10.165+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-05-31T23:24:10.248+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-05-31T23:57:41.029+00:00][INFO ][plugins.fleet] Running Fleet Usage telemetry send task
+subway_kibana    | [2026-05-31T23:57:41.068+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-05-31T23:58:07.957+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-05-31T23:58:08.037+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-06-01T00:12:41.230+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-06-01T00:27:43.462+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-06-01T00:42:44.527+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-06-01T00:57:43.892+00:00][INFO ][plugins.fleet] Running Fleet Usage telemetry send task
+subway_kibana    | [2026-06-01T00:57:47.014+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-06-01T01:12:47.402+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-06-01T01:27:48.384+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-06-01T01:41:28.220+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-06-01T01:41:28.301+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-06-01T01:42:09.916+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-06-01T01:42:10.000+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-06-01T01:42:49.311+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-06-01T01:57:46.519+00:00][INFO ][plugins.fleet] Running Fleet Usage telemetry send task
+subway_kibana    | [2026-06-01T01:57:49.517+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | [2026-06-01T02:00:10.826+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-06-01T02:00:10.910+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-06-01T02:00:22.805+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-06-01T02:00:22.886+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-06-01T02:06:57.587+00:00][WARN ][status.plugins.taskManager] taskManager plugin is now degraded: Task Manager is unhealthy - Reason: setting HealthStatus.Error because of expired cold timestamps
+subway_kibana    | [2026-06-01T02:06:57.669+00:00][WARN ][status] Kibana is now degraded (was available): 0 service(s) and 1 plugin(s) are degraded: taskManager
+subway_kibana    | [2026-06-01T02:07:09.587+00:00][INFO ][status.plugins.taskManager] taskManager plugin is now available: Task Manager is healthy
+subway_kibana    | [2026-06-01T02:07:09.668+00:00][INFO ][status] Kibana is now available (was degraded)
+subway_kibana    | [2026-06-01T02:12:51.757+00:00][INFO ][plugins.fleet] Fleet Usage: {"agents_enabled":true,"agents":{"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"inactive":0,"unenrolled":0,"total_all_statuses":0,"updating":0},"fleet_server":{"total_all_statuses":0,"total_enrolled":0,"healthy":0,"unhealthy":0,"offline":0,"updating":0,"num_host_urls":0}}
+subway_kibana    | Kibana is currently running with legacy OpenSSL providers enabled! For details and instructions on how to disable see https://www.elastic.co/guide/en/kibana/8.12/production.html#openssl-legacy-provider
+subway_kibana    | {"log.level":"info","@timestamp":"2026-06-01T02:44:18.088Z","log.logger":"elastic-apm-node","ecs.version":"8.10.0","agentVersion":"4.2.0","env":{"pid":8,"proctitle":"/usr/share/kibana/bin/../node/bin/node","os":"linux 6.12.72-linuxkit","arch":"arm64","host":"bff62d207854","timezone":"UTC+00","runtime":"Node.js v18.18.2"},"config":{"active":{"source":"start","value":true},"breakdownMetrics":{"source":"start","value":false},"captureBody":{"source":"start","value":"off","commonName":"capture_body"},"captureHeaders":{"source":"start","value":false},"centralConfig":{"source":"start","value":false},"contextPropagationOnly":{"source":"start","value":true},"environment":{"source":"start","value":"production"},"globalLabels":{"source":"start","value":[["kibana_uuid","2f7a4697-482f-455f-bc0e-43c703a0eb90"],["git_rev","f5bd489c5ff9c676c4f861c42da6ea99ae350832"]],"sourceValue":{"kibana_uuid":"2f7a4697-482f-455f-bc0e-43c703a0eb90","git_rev":"f5bd489c5ff9c676c4f861c42da6ea99ae350832"}},"logLevel":{"source":"default","value":"info","commonName":"log_level"},"metricsInterval":{"source":"start","value":120,"sourceValue":"120s"},"serverUrl":{"source":"start","value":"https://kibana-cloud-apm.apm.us-east-1.aws.found.io/","commonName":"server_url"},"transactionSampleRate":{"source":"start","value":0.1,"commonName":"transaction_sample_rate"},"captureSpanStackTraces":{"source":"start","sourceValue":false},"secretToken":{"source":"start","value":"[REDACTED]","commonName":"secret_token"},"serviceName":{"source":"start","value":"kibana","commonName":"service_name"},"serviceVersion":{"source":"start","value":"8.12.2","commonName":"service_version"}},"activationMethod":"require","message":"Elastic APM Node.js Agent v4.2.0"}
+subway_kibana    | [2026-06-01T02:44:21.874+00:00][INFO ][root] Kibana is starting
+subway_kibana    | [2026-06-01T02:44:22.052+00:00][INFO ][node] Kibana process configured with roles: [background_tasks, ui]
+subway_kibana    | [2026-06-01T02:44:33.656+00:00][INFO ][plugins-service] Plugin "cloudChat" is disabled.
+subway_kibana    | [2026-06-01T02:44:33.663+00:00][INFO ][plugins-service] Plugin "cloudExperiments" is disabled.
+subway_kibana    | [2026-06-01T02:44:33.663+00:00][INFO ][plugins-service] Plugin "cloudFullStory" is disabled.
+subway_kibana    | [2026-06-01T02:44:33.837+00:00][INFO ][plugins-service] Plugin "profilingDataAccess" is disabled.
+subway_kibana    | [2026-06-01T02:44:33.837+00:00][INFO ][plugins-service] Plugin "profiling" is disabled.
+subway_kibana    | [2026-06-01T02:44:33.886+00:00][INFO ][plugins-service] Plugin "securitySolutionServerless" is disabled.
+subway_kibana    | [2026-06-01T02:44:33.887+00:00][INFO ][plugins-service] Plugin "serverless" is disabled.
+subway_kibana    | [2026-06-01T02:44:33.887+00:00][INFO ][plugins-service] Plugin "serverlessObservability" is disabled.
+subway_kibana    | [2026-06-01T02:44:33.887+00:00][INFO ][plugins-service] Plugin "serverlessSearch" is disabled.
+subway_kibana    | [2026-06-01T02:44:34.092+00:00][INFO ][http.server.Preboot] http server running at http://0.0.0.0:5601
+subway_kibana    | [2026-06-01T02:44:34.139+00:00][INFO ][plugins-system.preboot] Setting up [1] plugins: [interactiveSetup]
+subway_kibana    | [2026-06-01T02:44:34.147+00:00][INFO ][preboot] "interactiveSetup" plugin is holding setup: Validating Elasticsearch connection configuration…
+subway_kibana    | [2026-06-01T02:44:34.157+00:00][INFO ][root] Holding setup until preboot stage is completed.
+subway_kibana    | 
+subway_kibana    | 
+subway_kibana    | i Kibana has not been configured.
+subway_kibana    | 
+subway_kibana    | Go to http://0.0.0.0:5601/?code=821203 to get started.
+subway_kibana    | 
+subway_kibana    | 
+subway_kibana    | [2026-06-01T02:45:47.057+00:00][INFO ][root] SIGTERM received - initiating shutdown
+subway_kibana    | [2026-06-01T02:45:47.062+00:00][INFO ][root] Kibana is shutting down
+subway_kibana    | [2026-06-01T02:45:47.076+00:00][INFO ][plugins-system.preboot] Stopping all plugins.
+subway_kibana    | [2026-06-01T02:45:47.080+00:00][INFO ][plugins-system.preboot] All plugins stopped.
+subway_kibana    | Kibana is currently running with legacy OpenSSL providers enabled! For details and instructions on how to disable see https://www.elastic.co/guide/en/kibana/8.12/production.html#openssl-legacy-provider
+subway_kibana    | {"log.level":"info","@timestamp":"2026-06-01T02:45:54.028Z","log.logger":"elastic-apm-node","ecs.version":"8.10.0","agentVersion":"4.2.0","env":{"pid":7,"proctitle":"/usr/share/kibana/bin/../node/bin/node","os":"linux 6.12.72-linuxkit","arch":"arm64","host":"bff62d207854","timezone":"UTC+00","runtime":"Node.js v18.18.2"},"config":{"active":{"source":"start","value":true},"breakdownMetrics":{"source":"start","value":false},"captureBody":{"source":"start","value":"off","commonName":"capture_body"},"captureHeaders":{"source":"start","value":false},"centralConfig":{"source":"start","value":false},"contextPropagationOnly":{"source":"start","value":true},"environment":{"source":"start","value":"production"},"globalLabels":{"source":"start","value":[["kibana_uuid","2f7a4697-482f-455f-bc0e-43c703a0eb90"],["git_rev","f5bd489c5ff9c676c4f861c42da6ea99ae350832"]],"sourceValue":{"kibana_uuid":"2f7a4697-482f-455f-bc0e-43c703a0eb90","git_rev":"f5bd489c5ff9c676c4f861c42da6ea99ae350832"}},"logLevel":{"source":"default","value":"info","commonName":"log_level"},"metricsInterval":{"source":"start","value":120,"sourceValue":"120s"},"serverUrl":{"source":"start","value":"https://kibana-cloud-apm.apm.us-east-1.aws.found.io/","commonName":"server_url"},"transactionSampleRate":{"source":"start","value":0.1,"commonName":"transaction_sample_rate"},"captureSpanStackTraces":{"source":"start","sourceValue":false},"secretToken":{"source":"start","value":"[REDACTED]","commonName":"secret_token"},"serviceName":{"source":"start","value":"kibana","commonName":"service_name"},"serviceVersion":{"source":"start","value":"8.12.2","commonName":"service_version"}},"activationMethod":"require","message":"Elastic APM Node.js Agent v4.2.0"}
+subway_kibana    | [2026-06-01T02:45:56.250+00:00][INFO ][root] Kibana is starting
+subway_kibana    | [2026-06-01T02:45:56.318+00:00][INFO ][node] Kibana process configured with roles: [background_tasks, ui]
+subway_kibana    | [2026-06-01T02:46:02.379+00:00][INFO ][plugins-service] Plugin "cloudChat" is disabled.
+subway_kibana    | [2026-06-01T02:46:02.390+00:00][INFO ][plugins-service] Plugin "cloudExperiments" is disabled.
+subway_kibana    | [2026-06-01T02:46:02.390+00:00][INFO ][plugins-service] Plugin "cloudFullStory" is disabled.
+subway_kibana    | [2026-06-01T02:46:02.644+00:00][INFO ][plugins-service] Plugin "profilingDataAccess" is disabled.
+subway_kibana    | [2026-06-01T02:46:02.645+00:00][INFO ][plugins-service] Plugin "profiling" is disabled.
+subway_kibana    | [2026-06-01T02:46:02.704+00:00][INFO ][plugins-service] Plugin "securitySolutionServerless" is disabled.
+subway_kibana    | [2026-06-01T02:46:02.705+00:00][INFO ][plugins-service] Plugin "serverless" is disabled.
+subway_kibana    | [2026-06-01T02:46:02.705+00:00][INFO ][plugins-service] Plugin "serverlessObservability" is disabled.
+subway_kibana    | [2026-06-01T02:46:02.705+00:00][INFO ][plugins-service] Plugin "serverlessSearch" is disabled.
+subway_kibana    | [2026-06-01T02:46:02.992+00:00][INFO ][http.server.Preboot] http server running at http://0.0.0.0:5601
+subway_kibana    | [2026-06-01T02:46:03.106+00:00][INFO ][plugins-system.preboot] Setting up [1] plugins: [interactiveSetup]
+subway_kibana    | [2026-06-01T02:46:03.117+00:00][INFO ][preboot] "interactiveSetup" plugin is holding setup: Validating Elasticsearch connection configuration…
+subway_kibana    | [2026-06-01T02:46:03.128+00:00][INFO ][root] Holding setup until preboot stage is completed.
+subway_kibana    | 
+subway_kibana    | 
+subway_kibana    | i Kibana has not been configured.
+subway_kibana    | 
+subway_kibana    | Go to http://0.0.0.0:5601/?code=490228 to get started.
+subway_kibana    | 
+subway_kibana    | 

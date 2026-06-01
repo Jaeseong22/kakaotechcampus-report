@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KTC Todo List</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="app-wrapper">
+      <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div class="sidebar-logo">
+            <!-- 로컬 로고를 쓰려면 logo.png 파일을 같은 폴더에 넣으면 됨 -->
+            <img src="./logo.png" alt="Kakao Tech Campus Logo" />
+            <span>KTC-Todo</span>
+          </div>
+
+          <nav class="sidebar-menu">
+            <div class="menu-item">
+              <span class="menu-icon">⊞</span>
+              <span>개요</span>
+            </div>
+
+            <div class="menu-item-group">
+              <div class="menu-item active">
+                <span class="menu-icon">📋</span>
+                <span>할 일 목록</span>
+                <span class="menu-arrow">▾</span>
+              </div>
+
+              <div class="sub-menu" id="sidebarTodoList"></div>
+            </div>
+          </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+          <header class="header-top">
+            <h1 class="header-title">할 일 목록</h1>
+          </header>
+
+          <div class="controls-row">
+            <div class="date-selector">
+              <button id="prevWeekBtn" class="date-nav-btn" type="button">이전 주</button>
+              <p id="weekRangeLabel" class="week-range-label"></p>
+              <button id="nextWeekBtn" class="date-nav-btn" type="button">다음 주</button>
+            </div>
+
+            <div class="right-controls">
+              <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input
+                  type="text"
+                  id="searchInput"
+                  class="search-input"
+                  placeholder="목록 검색"
+                />
+              </div>
+
+              <button class="btn-add" id="openModalBtn">+ 새 목록 추가</button>
+            </div>
+          </div>
+
+          <div class="tabs">
+            <button class="tab" data-tab="all">전체</button>
+            <button class="tab active" data-tab="active">진행 중</button>
+            <button class="tab" data-tab="completed">완료</button>
+          </div>
+
+          <section class="week-view-section">
+            <div id="weekDaysContainer" class="week-days-container"></div>
+          </section>
+
+          <div class="todo-grid" id="todoGrid"></div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal-content">
+        <h2 class="modal-title">새 할 일 추가</h2>
+
+        <form id="addTodoForm">
+          <input
+            type="text"
+            id="todoTitleInput"
+            class="modal-input"
+            placeholder="할 일 제목을 입력하세요..."
+            autocomplete="off"
+          />
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+
+          <textarea
+            id="todoDescriptionInput"
+            class="modal-input modal-textarea"
+            placeholder="할 일 설명을 입력하세요..."
+          ></textarea>
+
+          <div class="time-range-row">
+            <input
+              type="time"
+              id="todoStartTimeInput"
+              class="modal-input"
+              step="1"
+            />
+            <span class="time-range-separator">~</span>
+            <input
+              type="time"
+              id="todoEndTimeInput"
+              class="modal-input"
+              step="1"
+            />
+          </div>
+
+          <div class="modal-actions">
+            <button type="button" class="btn-cancel" id="closeModalBtn">
+              취소
+            </button>
+            <button type="submit" class="btn-submit">추가</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
