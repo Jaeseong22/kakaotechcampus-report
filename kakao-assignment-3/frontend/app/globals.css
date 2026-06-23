@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #18212f;
+  --muted: #708096;
+  --line: #dfe6ef;
+  --paper: #ffffff;
+  --canvas: #f3f6fa;
+  --navy: #172235;
+  --lime: #c8ff54;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--canvas);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 88% 4%, rgba(200, 255, 84, 0.16), transparent 21rem),
+    var(--canvas);
+  font-family: Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(137, 190, 32, 0.3);
+  outline-offset: 2px;
+}
+
+::selection {
+  color: #101820;
+  background: var(--lime);
+}
+
+.grid-texture {
+  background-image:
+    linear-gradient(rgba(23, 34, 53, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(23, 34, 53, 0.035) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
